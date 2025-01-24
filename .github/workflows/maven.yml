@@ -49,4 +49,4 @@ jobs:
         password: ${{ secrets.SSH_PASSWORD }}
         port: ${{ secrets.SSH_PORT }}
         script_stop: true
-        script: "./startup/startup-eureka.sh"
+        script: "/home/be8/be8-team5/startup/startup-eureka.sh"
